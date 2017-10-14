@@ -1,0 +1,42 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: Foo Bar
+  price: 19.99
+
+two:
+  title: Foo Bar
+  price: 19.99
+
+three:
+  title: Foo Bar
+  price: 19.99
+
+four:
+  title: Foo Bar
+  price: 19.99
+
+five:
+  title: Foo Bar
+  price: 19.99
+
+six:
+  title: Foo Bar
+  price: 19.99
+
+seven:
+  title: Foo Bar
+  price: 19.99
+
+eight:
+  title: Foo Bar
+  price: 19.99
+
+nine:
+  title: Foo Bar
+  price: 19.99
+
+ten:
+  title: Foo Bar
+  price: 19.99
+
