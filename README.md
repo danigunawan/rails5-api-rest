@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Tony133/Rails5ApiRest.svg?branch=master)](https://travis-ci.org/Tony133/Rails5ApiRest)
 
-Simple Example Api Rest with Ruby on Rails 5
+Simple Example Api Rest with Ruby on Rails 5 and JWT Authentication
 
 ## Getting Migrations
 
@@ -26,3 +26,14 @@ Simple Example Api Rest with Ruby on Rails 5
     $ curl -H 'content-type: application/json' -v -X DELETE http://localhost:3000/api/books/:id
 ```
 
+## Generate Token Authentication with Curl
+
+```
+    $ curl -H "Content-Type: application/json" -X POST -d '{"email":"tony@rails.com","password":"master"}' http://localhost:3000/authenticate
+```
+
+## Example JSON Web Token Authentication with Curl on resource
+
+```
+    $ curl -H 'content-type: application/json' -v -X GET http://localhost:3000/api/books -H 'Authorization: Bearer :token' 
+```
