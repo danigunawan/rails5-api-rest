@@ -1,6 +1,6 @@
 # Rails5ApiRest
 
-[![Build Status](https://travis-ci.org/Tony133/Rails5ApiRest.svg?branch=master)](https://travis-ci.org/Tony133/Rails5ApiRest)
+[![Build Status](https://travis-ci.org/Tony133/rails5-api-rest.svg?branch=master)](https://travis-ci.org/Tony133/rails5-api-rest)
 
 Simple Example Api Rest with Ruby on Rails 5 and JWT Authentication
 
